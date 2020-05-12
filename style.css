@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+}
+.ClassplusTask {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  justify-content: center;
+}
+
+.ClassplusTask .top-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  /* padding: 16px; */
+}
+
+.top-card .navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+  background: #009ae0;
+}
+
+.navigation .ReferText {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.top-card .WelcomeImg {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  /* width: 100%; */
+}
+
+.top-card .BigText {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 16px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.top-card .smallText {
+  padding: 16px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.top-card .Footer {
+  /* width: 92%; */
+  display: flex;
+  justify-content: center;
+  margin: 16px 16px 16px 16px;
+}
+
+/* .top-card .ReferBtn {
+  
+  margin: 0px ;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #009ae0;
+  border-radius: 4px;
+} */
+
+.Footer .ReferBtn {
+  background-color: #009ae0;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* display: flex; */
+  align-items: center;
+  color: #fff;
+  display: flex;
+  padding: 14px 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.ClassplusTask .middle-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin-top: 8px;
+  padding: 16px;
+}
+
+.middle-card .HeadingText {
+  padding-bottom: 16px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.middle-card .ReferalPart {
+  display: flex;
+  flex-direction: column;
+}
+
+.ReferalPart .TopText {
+  /* padding-top: 16px; */
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #08bd80;
+}
+
+.ReferalPart .middleText {
+  padding-top: 16px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.ReferalPart .CoinsClassGrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.CoinsClassGrp .Coins {
+  margin-top: 16px;
+  background: #f7f8f9;
+  border-radius: 4px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Coins .CoinsTxt {
+  padding-left: 10px;
+}
+
+.CoinsClassGrp .LiveClass {
+  margin-top: 16px;
+  background: #f7f8f9;
+  border-radius: 4px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.LiveClass .LiveClassTxt {
+  padding-left: 10px;
+}
+
+.ClassplusTask .bottom-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin-top: 8px;
+  padding: 16px;
+}
+
+.bottom-card .TopBoxBtmCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TopBoxBtmCard .TopText {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.bottom-card .BodyText {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+
+  display: flex;
+  align-items: center;
+
+  color: #333333;
+}
+
+.bottom-card .BottomBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.BottomBox .BtmText {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #009ae0;
+}
