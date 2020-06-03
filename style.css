@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 .ClassplusTask {
   display: flex;
@@ -17,16 +18,33 @@ body {
 }
 
 .top-card .navigation {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 16px;
   align-items: center;
   background: #009ae0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 94%; */
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0px 16px 10px;
+  /* padding-right: 16px; */
+
+  background: #009ae0;
+  box-shadow: 0px 1px 5px rgba(172, 173, 175, 0.2),
+    0px 3px 4px rgba(172, 173, 175, 0.12), 0px 2px 4px rgba(172, 173, 175, 0.14);
 }
 
 .navigation .ReferText {
-  font-family: SF Pro Text;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -39,6 +57,7 @@ body {
 }
 .top-card .WelcomeImg {
   display: flex;
+  margin-top: 56px;
   /* flex-direction: row; */
   align-items: center;
   justify-content: center;
@@ -47,7 +66,6 @@ body {
 }
 
 .top-card .BigText {
-  font-family: SF Pro Display;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -62,7 +80,7 @@ body {
 
 .top-card .smallText {
   padding: 16px;
-  font-family: SF Pro Text;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -78,7 +96,7 @@ body {
   /* width: 92%; */
   display: flex;
   justify-content: center;
-  margin: 16px 16px 16px 16px;
+  margin: 0px 16px 16px 16px;
 }
 
 /* .top-card .ReferBtn {
@@ -116,56 +134,48 @@ body {
   flex-direction: column;
   background: #ffffff;
   margin-top: 8px;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .middle-card .HeadingText {
-  padding-bottom: 16px;
-  font-family: SF Pro Text;
+  padding: 16px;
+  border-bottom: 1px solid #e5e5e5;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
-
   color: rgba(0, 0, 0, 0.87);
 }
 
 .middle-card .ReferalPart {
   display: flex;
   flex-direction: column;
+  margin: 16px 16px 0px 16px;
+  padding-bottom: 16px;
+  /* width: 90%; */
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .ReferalPart .TopText {
-  /* padding-top: 16px; */
-  font-family: SF Pro Text;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
-
   color: #08bd80;
 }
 
 .ReferalPart .middleText {
-  padding-top: 16px;
-  font-family: SF Pro Text;
+  padding: 16px 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
-
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -176,7 +186,6 @@ body {
 }
 
 .CoinsClassGrp .Coins {
-  margin-top: 16px;
   background: #f7f8f9;
   border-radius: 4px;
   padding: 20px 16px;
@@ -187,43 +196,10 @@ body {
 
 .Coins .CoinsTxt {
   padding-left: 10px;
-}
-
-.CoinsClassGrp .LiveClass {
-  margin-top: 16px;
-  background: #f7f8f9;
-  border-radius: 4px;
-  padding: 20px 16px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.LiveClass .LiveClassTxt {
-  padding-left: 10px;
-}
-
-.ClassplusTask .bottom-card {
-  display: flex;
-  flex-direction: column;
-  background: #ffffff;
-  margin-top: 8px;
-  padding: 16px;
-}
-
-.bottom-card .TopBoxBtmCard {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.TopBoxBtmCard .TopText {
-  font-family: SF Pro Text;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 14px;
+  line-height: 17px;
   /* identical to box height */
 
   display: flex;
@@ -232,17 +208,71 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
-.bottom-card .BodyText {
-  font-family: SF Pro Text;
+.CoinsClassGrp .LiveClass {
+  background: linear-gradient(
+    99.35deg,
+    rgba(252, 240, 203, 0.5) 1.04%,
+    rgba(248, 211, 194, 0.5) 99.02%
+  );
+  border-radius: 4px;
+
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.LiveClass .LiveClassTxt {
+  padding-left: 10px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  /* or 137% */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
 
   display: flex;
   align-items: center;
 
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ClassplusTask .bottom-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin-top: 8px;
+  /* padding: 16px; */
+}
+
+.bottom-card .TopBoxBtmCard {
+  padding: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TopBoxBtmCard .TopText {
+  font-style: normal;
+  /* padding-left: 16px; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.bottom-card .BodyText {
+  padding: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
   color: #333333;
 }
 
@@ -251,10 +281,10 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 16px;
 }
 
 .BottomBox .BtmText {
-  font-family: SF Pro Text;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -262,4 +292,27 @@ body {
   /* identical to box height */
 
   color: #009ae0;
+}
+
+@media (min-width: 1000px) {
+  body {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #e5e5e5;
+    background: #e5e5e5;
+  }
+  .top-card .navigation {
+    width: 59.2%;
+    margin: auto;
+    border: 1px solid #e5e5e5;
+  }
+}
+
+@media (max-width: 325px) {
+  .LiveClass .LiveClassTxt {
+    font-size: 12px;
+  }
+  .Coins .CoinsTxt {
+    font-size: 12px;
+  }
 }

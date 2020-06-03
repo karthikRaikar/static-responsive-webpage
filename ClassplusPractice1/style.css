@@ -1,0 +1,348 @@
+body {
+  /* background: #e5e5e5; */
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.classplusPrgm {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  justify-content: center;
+}
+
+.classplusPrgm .navBar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 12px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.navBar .HeadingTextIcn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 8%;
+}
+
+.HeadingTextIcn .classplus {
+  margin-left: -5px;
+  color: #2d2d45;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  display: flex;
+  align-items: center;
+}
+.HeadingTextIcn .Partner {
+  padding-left: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  display: flex;
+  align-items: center;
+
+  color: #01baec;
+}
+.HeadingTextIcn .Program {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  display: flex;
+  align-items: center;
+
+  color: #195088;
+}
+
+.classplusPrgm .sabsePehleAap {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.sabsePehleAap .welcomeImg {
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px 60px 16px;
+}
+
+.sabsePehleAap .HashTag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #2d2d45;
+}
+
+.sabsePehleAap .bodyText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #2d2d45;
+  padding: 24px 32px 32px 32px;
+}
+
+.sabsePehleAap .Footer {
+  display: flex;
+  justify-content: center;
+  margin: 0px 32px 60px 32px;
+}
+
+.Footer .JoinPartnerPrgm {
+  background-color: #009ae0;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  border-radius: 4px;
+
+  align-items: center;
+  color: #fff;
+  display: flex;
+  padding: 14px 10px;
+  justify-content: center;
+  width: 100%;
+}
+
+.classplusPrgm .WhatisClps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f4f7f8;
+}
+
+.WhatisClps .whatisClpsHeading {
+  padding: 60px 60px 32px 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #2d2d45;
+
+  text-shadow: 0px 0px 1px #000000;
+}
+
+.WhatisClps .bodyTopText {
+  padding: 0px 48px 32px 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #2d2d45;
+}
+
+.WhatisClps .bodyBtmText {
+  padding: 0px 48px 32px 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #2d2d45;
+}
+
+.WhatisClps .videoImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 32px 0px 32px;
+}
+
+.videoImg .videosImgs {
+  width: 100%;
+}
+
+.WhatisClps .checkoutVideoText {
+  padding: 8px 32px 60px 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #008489;
+}
+
+.classplusPrgm .whyShouldJoin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.whyShouldJoin .Heading {
+  padding: 60px 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #2d2d45;
+
+  text-shadow: 0px 0px 1px #000000;
+}
+.whyShouldJoin .FriendImg {
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+.FriendImg .PhoneImg {
+  position: relative;
+}
+.FriendImg .ManImg {
+  position: absolute;
+  margin-left: -12px;
+}
+
+.whyShouldJoin .verifiedReferal {
+  padding: 0px 45px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height, or 128% */
+  text-align: center;
+  color: #2d2d45;
+}
+.whyShouldJoin .verifiedReferalText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #008489;
+  padding: 16px 45px 42px 45px;
+}
+
+.whyShouldJoin .PartnerSystem {
+  padding-top: 80px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #2d2d45;
+}
+.whyShouldJoin .EcosystemTextIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 32px 32px 0px 32px;
+}
+.whyShouldJoin .EcosystemText {
+  padding-left: 18px;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  color: #2d2d45;
+}
+
+.whyShouldJoin .classplusImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.classplusImage .classplusImages {
+  width: 100%;
+}
+
+.whyShouldJoin .clpsLogoTxt {
+  padding: 0px 32px 0px 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* display: flex;
+  align-items: center; */
+  /* or 133% */
+  /* text-align: center; */
+  color: #008489;
+}
+
+.whyShouldJoin .Footer {
+  display: flex;
+  justify-content: center;
+  margin: 32px 32px 148px 32px;
+}
+
+@media (min-width: 1000px) {
+  body {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #e5e5e5;
+    background: #e5e5e5;
+  }
+
+  .classplusPrgm .navBar {
+    width: 58.15%;
+  }
+
+  .videoImg .videosImgs {
+    width: 80%;
+  }
+  .classplusImage .classplusImages {
+    width: 100%;
+  }
+  /* .top-card .navigation {
+      width: 59.2%;
+      margin: auto;
+      border: 1px solid #e5e5e5;
+    } */
+}
